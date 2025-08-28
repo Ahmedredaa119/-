@@ -167,7 +167,22 @@ height: 70%;
 
 /* mobile */
 @media (max-width:600px) {
-body{
+nav{
+    display: block;
+   
 
 }
+ nav .logo{
+      display: block;
+      margin: 0 auto 15px;
+ }
+ nav ul{
+    justify-content: center;
+ }
+ nav ul a{
+    font-size: 12px;
+ }
+ .all-types{
+    margin-top: 15px;
+ }
 }
